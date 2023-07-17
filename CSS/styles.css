@@ -1,0 +1,459 @@
+* {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/bg.jpg);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-attachment: scroll;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+/* Bektur start */
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 1402px;
+}
+.header img {
+  width: 119px;
+  height: 44px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.header__inner .header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-right: 250px;
+}
+.header__list a {
+  color: #1e1e1e;
+  text-decoration: none;
+  line-height: auto;
+  cursor: pointer;
+}
+.header__list a:hover {
+  color: #00029c;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.header__list li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.header__language {
+  display: flex;
+  justify-content: space-between;
+  width: 51px;
+  cursor: pointer;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.header__language p {
+  color: #1e1e1e;
+}
+.header__language p:hover {
+  color: #00029c;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.header__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 102px;
+}
+.header__icons img {
+  width: 24px;
+  height: 24px;
+}
+/* Bektur end */
+
+/*Sulayman start */
+.container {
+  width: 1228px;
+  margin: 0 99px 0 273px;
+}
+.hero {
+  margin-top: 144px;
+}
+.hero__title {
+  color: #00029c;
+  font-size: 73px;
+  letter-spacing: 2.8px;
+  font-style: normal;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.hero__info {
+  display: flex;
+  margin-bottom: 68px;
+}
+.hero__info_left {
+  width: 572px;
+  height: 122px;
+  font-size: 28px;
+}
+.hero__info_right {
+  width: 573px;
+  height: 122px;
+  font-size: 16px;
+}
+.hero button {
+  background-color: #00029c;
+  color: #fff;
+  width: 158px;
+  height: 40px;
+  border-radius: 30px;
+  margin-right: 983px;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 77px;
+}
+.hero button:hover {
+  background-color: #01049b;
+  transition: 0.5s;
+}
+.hero__arrow {
+  margin-bottom: 154px;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+}
+.advantages > p {
+  font-size: 14px;
+  color: #1e1e1e;
+  margin-bottom: 41px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+}
+.advantages p:hover {
+  color: #00029c;
+  transition: 0.5s;
+}
+.advantages__blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages__block {
+  width: 394px;
+  height: 306px;
+  background-color: #fffefe;
+  border-radius: 20px;
+}
+.advantages__block img {
+  margin-top: 60px;
+  margin-left: 41px;
+  margin-bottom: 40px;
+  width: 96px;
+  height: 96px;
+}
+.advantages__block p {
+  text-align: start;
+  font-size: 22px;
+  color: #000000;
+  margin-left: 41px;
+}
+/* Sulayman end */
+
+/* Argen start */
+.services {
+  margin-top: 245px;
+}
+.services__title {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.services__title:hover {
+  color: #00029c;
+  transition: 0.5s;
+}
+
+.services h3 {
+  font-size: 80px;
+  margin: 30px 0;
+}
+.services__description {
+  font-size: 32px;
+  width: 809px;
+  margin-bottom: 92px;
+}
+.services__item {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1222px;
+  height: 300px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+.services__item:nth-child(2) {
+  padding-left: 60px;
+}
+#services__line_second {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+.services__img {
+  margin-right: 39px;
+  margin-left: 42px;
+}
+.services__img img {
+  width: 204px;
+  height: 204px;
+}
+.services__line {
+  margin-right: 66px;
+}
+.services__column {
+  width: 822px;
+}
+.services__column h3 {
+  font-size: 32px;
+  padding: 10px 0;
+  margin-bottom: 18px;
+}
+.services__list li {
+  font-size: 22px;
+  list-style-type: none;
+  position: relative;
+  padding-left: 20px;
+}
+.services__list li::before {
+  content: "";
+  background: url("../images/Polygon.svg") 0 0 no-repeat;
+  width: 10px;
+  height: 15px;
+  position: absolute;
+  top: 14px;
+  left: 0;
+}
+.connect {
+  margin-top: 50px;
+  background-color: #00029c;
+  border-radius: 30px;
+  color: #fff;
+  height: 156px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.connect h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.connect img {
+  width: 166px;
+}
+.connect button {
+  width: 240px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: inherit;
+  border: 1px solid#fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.connect button:hover {
+  background-color: #fff;
+  color: #00029c;
+  transition: 0.5s;
+}
+
+.connect button:active {
+  background-color: rgb(226, 226, 226);
+  border: none;
+}
+/* Argen end */
+
+/* Amantur start */
+.partners {
+  margin-top: 141px;
+  height: 160px;
+}
+.partners p {
+  letter-spacing: 2.8px;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+.partners p:hover {
+  color: #00029c;
+  transition: 0.5s;
+}
+.partners__logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  filter: grayscale(100%);
+}
+
+/* Amantur end */
+
+/* Altynai start */
+.team {
+  height: 907px;
+  margin-top: 121px;
+  margin-bottom: 88px;
+}
+.team > p {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+}
+.team > p:hover {
+  color: #01049b;
+  transition: 0.5s;
+}
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: space-between;
+  height: 907px;
+}
+
+.team__list_item {
+  width: 396px;
+  height: 400px;
+  margin-bottom: 36px;
+}
+
+.team__list_item img {
+  margin-bottom: 32px;
+  object-fit: cover;
+  width: 394px;
+  height: 262px;
+  border-radius: 20px;
+}
+
+.team__list_item h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  padding-right: 150px;
+  font-weight: 400;
+  line-height: 40px;
+  font-style: normal;
+  height: 58px;
+}
+
+.team__list_item p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 38px;
+  font-style: normal;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+/* Altynai end */
+
+/* Feruza start */
+.contacts {
+  margin-top: 88px;
+}
+
+.contacts p {
+  letter-spacing: 2.8px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.contacts p:hover {
+  color: #00029c;
+  transition: 0.5s;
+}
+.contacts iframe {
+  margin: 0 auto;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 199px;
+  justify-content: space-around;
+  background-color: #01049b;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer .footer__logo {
+  width: 119px;
+  height: 44px;
+  cursor: pointer;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  width: 685px;
+  height: 19px;
+}
+.footer__list li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.footer__list li:hover {
+  list-style-type: none;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.footer__list a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer__img {
+  width: 162px;
+  height: 174px;
+}
+.footer__lang {
+  display: flex;
+  justify-content: space-between;
+  width: 51px;
+}
+
+.footer__lang p {
+  cursor: pointer;
+  color: #ffffff;
+}
+.footer__lang p:hover {
+  font-weight: 700;
+  transition: 0.5s;
+}
+.footer__icons {
+  width: 102px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
